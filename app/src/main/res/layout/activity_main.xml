@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+    <Button
+            android:text="@string/menu1"
+            android:background="@drawable/vesely"
+            android:textColor="@color/white_smoke"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:id="@+id/livescores"/>
+    <Button
+            android:text="@string/menu2"
+            android:textColor="@color/white_smoke"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/spanoulis2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:id="@+id/standings"/>
+    <Button
+            android:text="@string/menu3"
+            android:textColor="@color/white_smoke"
+            android:background="@drawable/llull2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:id="@+id/results"/>
+</LinearLayout>

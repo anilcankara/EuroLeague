@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EuroLeague</string>
+    <string name="menu1">CANLI SKORLAR</string>
+    <string name="menu2">PUAN DURUMU</string>
+    <string name="menu3">YAKLAŞAN MAÇLAR</string>
+    <string name="standingsHeader">PUAN DURUMU</string>
+    <string name="livescoreHeader">GÜNÜN MAÇLARI</string>
+    <string name="upcomingHeader">YAKLAŞAN MAÇLAR</string>
+    <string name="teamStan">Takım</string>
+    <string name="wStan">G</string>
+    <string name="lStan">Y</string>
+    <string name="ptsPStan">Sayı+</string>
+    <string name="ptsMStan">Sayı-</string>
+    <string name="noMatches">Kızacağınızı biliyoruz ama maalesef bugün maç yok.</string>
+    <string name="noUpcomingMatches">Yakında maç yok. :(</string>
+</resources>

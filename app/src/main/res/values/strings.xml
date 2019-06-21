@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EuroLeague</string>
+    <string name="menu1">LIVESCORES</string>
+    <string name="menu2">STANDINGS</string>
+    <string name="menu3">UPCOMING MATCHES</string>
+    <string name="standingsHeader">STANDINGS</string>
+    <string name="livescoreHeader">TODAY\'S GAMES</string>
+    <string name="upcomingHeader">UPCOMING MATCHES</string>
+    <string name="teamStan">Team</string>
+    <string name="wStan">W</string>
+    <string name="lStan">L</string>
+    <string name="ptsPStan">Pts+</string>
+    <string name="ptsMStan">Pts-</string>
+    <string name="noMatches">We know you will get angry, but there are no games today.</string>
+    <string name="noUpcomingMatches">There are no games soon. :(</string>
+
+
+</resources>

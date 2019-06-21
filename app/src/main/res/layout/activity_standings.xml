@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/standingsHeader"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange_red"
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" android:id="@+id/header"/>
+    <LinearLayout
+            android:background="@color/orange_red"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/dummyView" android:layout_weight="3"/>
+        <TextView
+                android:layout_weight="5"
+                android:text="@string/teamStan"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/name"/>
+        <TextView
+                android:text="@string/wStan"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/w" android:layout_weight="2"/>
+        <TextView
+                android:text="@string/lStan"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/l" android:layout_weight="2"/>
+        <TextView
+                android:text="@string/ptsPStan"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/plus" android:layout_weight="2"/>
+        <TextView
+                android:text="@string/ptsMStan"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/minus" android:layout_weight="2"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+</LinearLayout>
