@@ -1,5 +1,5 @@
 package com.example.anil.euroleague
-// Deneme satırı
+// Deneme satırıııı
 import com.google.gson.annotations.SerializedName
 import retrofit2.Call
 import retrofit2.http.GET
